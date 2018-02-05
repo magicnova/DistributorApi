@@ -2,93 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d06f006-17c8-46b6-8b68-101108567bf4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/contentModel.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/indexLayout.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/riderModule.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/bin/Debug/netcoreapp2.0/Distributor.Domain.deps.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/bin/Debug/netcoreapp2.0/Distributor.Domain.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/bin/Debug/netcoreapp2.0/Distributor.Domain.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Debug/netcoreapp2.0/Distributor.Domain.AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Debug/netcoreapp2.0/Distributor.Domain.AssemblyInfoInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Debug/netcoreapp2.0/Distributor.Domain.csproj.CoreCompileInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Debug/netcoreapp2.0/Distributor.Domain.csproj.FileListAbsolute.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Debug/netcoreapp2.0/Distributor.Domain.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Debug/netcoreapp2.0/Distributor.Domain.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Distributor.Domain.csproj.nuget.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Distributor.Domain.csproj.nuget.g.props" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/Distributor.Domain.csproj.nuget.g.targets" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/project.assets.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/obj/project.packagespec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/bin/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.deps.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/bin/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/bin/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.AssemblyInfoInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.csproj.CoreCompileInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.csproj.FileListAbsolute.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.Data.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Distributor.Infrastructure.Data.csproj.nuget.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Distributor.Infrastructure.Data.csproj.nuget.g.props" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/Distributor.Infrastructure.Data.csproj.nuget.g.targets" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/project.assets.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure.Data/obj/project.packagespec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/bin/Debug/netcoreapp2.0/Distributor.Infrastructure.deps.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/bin/Debug/netcoreapp2.0/Distributor.Infrastructure.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/bin/Debug/netcoreapp2.0/Distributor.Infrastructure.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.AssemblyInfoInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.csproj.CoreCompileInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.csproj.FileListAbsolute.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Debug/netcoreapp2.0/Distributor.Infrastructure.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Distributor.Infrastructure.csproj.nuget.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Distributor.Infrastructure.csproj.nuget.g.props" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/Distributor.Infrastructure.csproj.nuget.g.targets" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/project.assets.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/obj/project.packagespec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/obj/Debug/netcoreapp2.0/Distributor.IoC.AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/obj/Debug/netcoreapp2.0/Distributor.IoC.AssemblyInfoInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/obj/Distributor.IoC.csproj.nuget.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/obj/Distributor.IoC.csproj.nuget.g.props" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/obj/Distributor.IoC.csproj.nuget.g.targets" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/obj/project.assets.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/obj/project.packagespec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/Distributor.Service.csproj" afterPath="$PROJECT_DIR$/Distributor.Service/Distributor.Service.csproj" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/bin/Debug/netcoreapp2.0/Distributor.Service.deps.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/bin/Debug/netcoreapp2.0/Distributor.Service.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/bin/Debug/netcoreapp2.0/Distributor.Service.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Debug/netcoreapp2.0/Distributor.Service.AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Debug/netcoreapp2.0/Distributor.Service.AssemblyInfoInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Debug/netcoreapp2.0/Distributor.Service.csproj.CoreCompileInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Debug/netcoreapp2.0/Distributor.Service.csproj.FileListAbsolute.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Debug/netcoreapp2.0/Distributor.Service.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Debug/netcoreapp2.0/Distributor.Service.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Distributor.Service.csproj.nuget.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Distributor.Service.csproj.nuget.g.props" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/Distributor.Service.csproj.nuget.g.targets" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/project.assets.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Service/obj/project.packagespec.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Distributor.IoC/Class1.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Distributor.IoC/Distributor.IoC.csproj" afterPath="$PROJECT_DIR$/Distributor.IoC/Distributor.IoC.csproj" />
+      <change beforePath="$PROJECT_DIR$/Distributor.Service/DistributorService.cs" afterPath="$PROJECT_DIR$/Distributor.Service/DistributorService.cs" />
       <change beforePath="$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs" afterPath="$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor/bin/Debug/netcoreapp2.0/Distributor.deps.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/bin/Debug/netcoreapp2.0/Distributor.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/bin/Debug/netcoreapp2.0/Distributor.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/bin/Debug/netcoreapp2.0/Distributor.runtimeconfig.dev.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/bin/Debug/netcoreapp2.0/Distributor.runtimeconfig.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Debug/netcoreapp2.0/Distributor.AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Debug/netcoreapp2.0/Distributor.AssemblyInfoInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Debug/netcoreapp2.0/Distributor.csproj.CoreCompileInputs.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Debug/netcoreapp2.0/Distributor.csproj.FileListAbsolute.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Debug/netcoreapp2.0/Distributor.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Debug/netcoreapp2.0/Distributor.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Distributor.csproj.nuget.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Distributor.csproj.nuget.g.props" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/Distributor.csproj.nuget.g.targets" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/project.assets.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Distributor/obj/project.packagespec.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Distributor/Distributor.csproj" afterPath="$PROJECT_DIR$/Distributor/Distributor.csproj" />
+      <change beforePath="$PROJECT_DIR$/Distributor/Program.cs" afterPath="$PROJECT_DIR$/Distributor/Program.cs" />
+      <change beforePath="$PROJECT_DIR$/Distributor/Startup.cs" afterPath="$PROJECT_DIR$/Distributor/Startup.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,29 +20,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Distributor/Program.cs">
+      <file leaf-file-name="AutofacContainer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="226">
+              <caret line="10" column="77" lean-forward="false" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
               <folding>
-                <marker date="1517514215670" expanded="true" signature="6:255" ph="..." />
-                <marker date="1517514215670" expanded="true" signature="278:599" ph="{...}" />
-                <marker date="1517514215670" expanded="true" signature="305:597" ph="{...}" />
-                <marker date="1517514215670" expanded="true" signature="358:416" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class1.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Distributor.IoC/Class1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <marker date="1517834850538" expanded="true" signature="40:80" ph="{...}" />
-                <marker date="1517834850538" expanded="true" signature="66:78" ph="{...}" />
+                <marker date="1517837485154" expanded="true" signature="6:78" ph="..." />
+                <marker date="1517837485154" expanded="true" signature="105:330" ph="{...}" />
+                <marker date="1517837485154" expanded="true" signature="150:328" ph="{...}" />
+                <marker date="1517837485154" expanded="true" signature="219:322" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -130,12 +38,14 @@
       <file leaf-file-name="DistributorController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="138">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
-                <marker date="1517835931592" expanded="true" signature="66:267" ph="{...}" />
-                <marker date="1517835931592" expanded="true" signature="152:265" ph="{...}" />
-                <marker date="1517835931592" expanded="true" signature="214:259" ph="{...}" />
+                <marker date="1517837658243" expanded="true" signature="6:68" ph="..." />
+                <marker date="1517837658243" expanded="true" signature="103:551" ph="{...}" />
+                <marker date="1517837658243" expanded="true" signature="189:549" ph="{...}" />
+                <marker date="1517837658243" expanded="true" signature="339:413" ph="{...}" />
+                <marker date="1517837658243" expanded="true" signature="470:543" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -144,52 +54,13 @@
       <file leaf-file-name="DistributorService.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="264">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
-                <marker date="1517836041651" expanded="true" signature="6:96" ph="..." />
-                <marker date="1517836041651" expanded="true" signature="127:312" ph="{...}" />
-                <marker date="1517836041651" expanded="true" signature="187:310" ph="{...}" />
-                <marker date="1517836041651" expanded="true" signature="228:304" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDistributorService.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Distributor.Domain/Interfaces/IDistributorService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <marker date="1517836019296" expanded="true" signature="74:160" ph="{...}" />
-                <marker date="1517836019296" expanded="true" signature="117:158" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Car.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Distributor.Domain/Car.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1517835990364" expanded="true" signature="28:74" ph="{...}" />
-                <marker date="1517835990364" expanded="true" signature="51:72" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Brands.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Distributor.Domain/Brands.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <marker date="1517835822875" expanded="true" signature="58:192" ph="{...}" />
-                <marker date="1517835822875" expanded="true" signature="83:190" ph="{...}" />
+                <marker date="1517837840559" expanded="false" signature="6:96" ph="..." />
+                <marker date="1517837840559" expanded="true" signature="127:292" ph="{...}" />
+                <marker date="1517837840559" expanded="true" signature="187:290" ph="{...}" />
+                <marker date="1517837840559" expanded="true" signature="228:284" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -204,7 +75,8 @@
     <setting file="file://$PROJECT_DIR$/Distributor.Domain/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Domain/Interfaces/IDistributorService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Distributor.IoC/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Distributor/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Domain/Brands.cs" root0="FORCE_HIGHLIGHTING" />
@@ -216,12 +88,15 @@
         <option value="$PROJECT_DIR$/Distributor.Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/Class1.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure.Data/Class1.cs" />
-        <option value="$PROJECT_DIR$/Distributor/Program.cs" />
         <option value="$PROJECT_DIR$/Distributor.IoC/Class1.cs" />
         <option value="$PROJECT_DIR$/Distributor.Domain/Brands.cs" />
-        <option value="$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs" />
         <option value="$PROJECT_DIR$/Distributor.Domain/Car.cs" />
         <option value="$PROJECT_DIR$/Distributor.Domain/Interfaces/IDistributorService.cs" />
+        <option value="$PROJECT_DIR$/Distributor.IoC/Container.cs" />
+        <option value="$PROJECT_DIR$/Distributor/Startup.cs" />
+        <option value="$PROJECT_DIR$/Distributor/Program.cs" />
+        <option value="$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" />
+        <option value="$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs" />
         <option value="$PROJECT_DIR$/Distributor.Service/DistributorService.cs" />
       </list>
     </option>
@@ -233,8 +108,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1376" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -269,7 +144,8 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor.Service" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -297,19 +173,23 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Distributor/bin/Debug/netcoreapp2.0/Distributor.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Distributor" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <envs />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Distributor/Distributor.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -326,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517514206717</updated>
       <workItem from="1517514209987" duration="552000" />
-      <workItem from="1517834306204" duration="1282000" />
+      <workItem from="1517834306204" duration="2857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1834000" />
+    <option name="totallyTimeSpent" value="3409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,23 +223,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1376" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5868167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4421553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5868167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45454547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4992658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32475883" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4051447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -376,7 +257,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
+            <startOffsets>
+              <startOffset value="493" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="533" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -391,27 +289,11 @@
     <entry file="file://$PROJECT_DIR$/Distributor.Domain/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure.Data/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/Distributor/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1517514215670" expanded="true" signature="6:255" ph="..." />
-            <marker date="1517514215670" expanded="true" signature="278:599" ph="{...}" />
-            <marker date="1517514215670" expanded="true" signature="305:597" ph="{...}" />
-            <marker date="1517514215670" expanded="true" signature="358:416" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.IoC/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <marker date="1517834850538" expanded="true" signature="40:80" ph="{...}" />
-            <marker date="1517834850538" expanded="true" signature="66:78" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -423,6 +305,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Interfaces/IDistributorService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <marker date="1517836019296" expanded="true" signature="74:160" ph="{...}" />
+            <marker date="1517836019296" expanded="true" signature="117:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.Domain/Brands.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -430,18 +323,6 @@
           <folding>
             <marker date="1517835822875" expanded="true" signature="58:192" ph="{...}" />
             <marker date="1517835822875" expanded="true" signature="83:190" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <marker date="1517835931592" expanded="true" signature="66:267" ph="{...}" />
-            <marker date="1517835931592" expanded="true" signature="152:265" ph="{...}" />
-            <marker date="1517835931592" expanded="true" signature="214:259" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -457,26 +338,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Interfaces/IDistributorService.cs">
+    <entry file="file://$PROJECT_DIR$/Distributor/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="149">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
-            <marker date="1517836019296" expanded="true" signature="74:160" ph="{...}" />
-            <marker date="1517836019296" expanded="true" signature="117:158" ph="{...}" />
+            <marker date="1517837345312" expanded="true" signature="6:301" ph="..." />
+            <marker date="1517837345312" expanded="true" signature="324:845" ph="{...}" />
+            <marker date="1517837345312" expanded="true" signature="351:843" ph="{...}" />
+            <marker date="1517837345312" expanded="true" signature="404:462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <marker date="1517837268734" expanded="false" signature="6:228" ph="..." />
+            <marker date="1517837268734" expanded="true" signature="251:1434" ph="{...}" />
+            <marker date="1517837268734" expanded="true" signature="278:1432" ph="{...}" />
+            <marker date="1517837268734" expanded="true" signature="332:651" ph="{...}" />
+            <marker date="1517837268734" expanded="true" signature="873:924" ph="{...}" />
+            <marker date="1517837268734" expanded="true" signature="998:1078" ph="{...}" />
+            <marker date="1517837268734" expanded="true" signature="1265:1426" ph="{...}" />
+            <marker date="1517837268734" expanded="true" signature="1312:1389" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="10" column="77" lean-forward="false" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding>
+            <marker date="1517837485154" expanded="true" signature="6:78" ph="..." />
+            <marker date="1517837485154" expanded="true" signature="105:330" ph="{...}" />
+            <marker date="1517837485154" expanded="true" signature="150:328" ph="{...}" />
+            <marker date="1517837485154" expanded="true" signature="219:322" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <marker date="1517837658243" expanded="true" signature="6:68" ph="..." />
+            <marker date="1517837658243" expanded="true" signature="103:551" ph="{...}" />
+            <marker date="1517837658243" expanded="true" signature="189:549" ph="{...}" />
+            <marker date="1517837658243" expanded="true" signature="339:413" ph="{...}" />
+            <marker date="1517837658243" expanded="true" signature="470:543" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="264">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <marker date="1517836041651" expanded="true" signature="6:96" ph="..." />
-            <marker date="1517836041651" expanded="true" signature="127:312" ph="{...}" />
-            <marker date="1517836041651" expanded="true" signature="187:310" ph="{...}" />
-            <marker date="1517836041651" expanded="true" signature="228:304" ph="{...}" />
+            <marker date="1517837840559" expanded="false" signature="6:96" ph="..." />
+            <marker date="1517837840559" expanded="true" signature="127:292" ph="{...}" />
+            <marker date="1517837840559" expanded="true" signature="187:290" ph="{...}" />
+            <marker date="1517837840559" expanded="true" signature="228:284" ph="{...}" />
           </folding>
         </state>
       </provider>

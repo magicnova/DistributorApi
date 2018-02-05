@@ -3,6 +3,12 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Distributor.Service\Distributor.Service.csproj">
+      <Project>{A1E3B4E5-F9F5-451D-8FC7-8D9379BE6BF3}</Project>
+      <Name>Distributor.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
   </ItemGroup>
 </Project>

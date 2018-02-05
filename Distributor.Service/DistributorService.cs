@@ -8,7 +8,7 @@ namespace Distributor.Service
     {
         public IList<Car> GetAll()
         {
-            throw new System.NotImplementedException();
+            return new List<Car>();
         }
     }
 }
