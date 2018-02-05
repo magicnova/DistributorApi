@@ -7,5 +7,9 @@
       <Project>{ED9EE273-B9ED-4B2B-BEAC-009A72E9CBF4}</Project>
       <Name>Distributor.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Distributor.Infrastructure\Distributor.Infrastructure.csproj">
+      <Project>{78DEE758-BA46-4D76-823F-E19018470AAA}</Project>
+      <Name>Distributor.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

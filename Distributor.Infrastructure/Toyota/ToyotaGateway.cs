@@ -7,7 +7,13 @@ namespace Distributor.Infrastructure.Toyota
     {
         public IList<Car> GetAll()
         {
-            throw new System.NotImplementedException();
+            return new List<Car>
+            {
+                new Car
+                {
+                    Brand = Brands.Toyota
+                }
+            };
         }
     }
 }

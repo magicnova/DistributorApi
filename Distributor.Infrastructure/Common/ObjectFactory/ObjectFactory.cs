@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Distributor.Domain.Common.Interfaces;
 
 namespace Distributor.Infrastructure.Common.ObjectFactory
 {
@@ -10,7 +11,6 @@ namespace Distributor.Infrastructure.Common.ObjectFactory
         {
             _container = container;
         }
-
 
         public T Create<T>(string clave) where T:class
         {

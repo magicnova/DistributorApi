@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d06f006-17c8-46b6-8b68-101108567bf4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Distributor.Domain/Common/ExtensionMethods/GetEnumDescription.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Distributor.Domain/Common/Interfaces/IObjectFactory.cs" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Distributor.Infrastructure.csproj" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Distributor.Infrastructure.csproj" />
+      <change beforePath="$PROJECT_DIR$/Distributor.Domain/Car.cs" afterPath="$PROJECT_DIR$/Distributor.Domain/Car.cs" />
+      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/IObjectFactory.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/ObjectFactory.cs" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/ObjectFactory.cs" />
+      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordGateway.cs" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordGateway.cs" />
+      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs" />
       <change beforePath="$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" afterPath="$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/Distributor.IoC.csproj" afterPath="$PROJECT_DIR$/Distributor.IoC/Distributor.IoC.csproj" />
+      <change beforePath="$PROJECT_DIR$/Distributor.Service/Distributor.Service.csproj" afterPath="$PROJECT_DIR$/Distributor.Service/Distributor.Service.csproj" />
       <change beforePath="$PROJECT_DIR$/Distributor.Service/DistributorService.cs" afterPath="$PROJECT_DIR$/Distributor.Service/DistributorService.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +26,8 @@
       <file leaf-file-name="DistributorController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="135">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <marker date="1517837658243" expanded="false" signature="6:68" ph="..." />
                 <marker date="1517837658243" expanded="true" signature="103:551" ph="{...}" />
@@ -36,13 +42,105 @@
       <file leaf-file-name="DistributorService.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="198">
+              <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding>
-                <marker date="1517838646216" expanded="false" signature="6:96" ph="..." />
-                <marker date="1517838646216" expanded="true" signature="127:305" ph="{...}" />
-                <marker date="1517838646216" expanded="true" signature="187:303" ph="{...}" />
-                <marker date="1517838646216" expanded="true" signature="228:297" ph="{...}" />
+                <marker date="1517840549775" expanded="true" signature="6:362" ph="..." />
+                <marker date="1517840549775" expanded="true" signature="393:1152" ph="{...}" />
+                <marker date="1517840549775" expanded="true" signature="453:1150" ph="{...}" />
+                <marker date="1517840549775" expanded="true" signature="580:644" ph="{...}" />
+                <marker date="1517840549775" expanded="true" signature="680:1143" ph="{...}" />
+                <marker date="1517840549775" expanded="true" signature="866:1100" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Brands.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Distributor.Domain/Brands.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <marker date="1517835822875" expanded="true" signature="58:192" ph="{...}" />
+                <marker date="1517835822875" expanded="true" signature="83:190" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetEnumDescription.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Distributor.Domain/Common/ExtensionMethods/GetEnumDescription.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <marker date="1517839136150" expanded="false" signature="6:67" ph="..." />
+                <marker date="1517839136150" expanded="true" signature="121:497" ph="{...}" />
+                <marker date="1517839136150" expanded="true" signature="166:495" ph="{...}" />
+                <marker date="1517839136150" expanded="true" signature="233:480" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FordGateway.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordGateway.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <marker date="1517840649435" expanded="false" signature="6:59" ph="..." />
+                <marker date="1517840649435" expanded="true" signature="102:380" ph="{...}" />
+                <marker date="1517840649435" expanded="true" signature="149:378" ph="{...}" />
+                <marker date="1517840649435" expanded="true" signature="190:372" ph="{...}" />
+                <marker date="1517840649435" expanded="true" signature="246:361" ph="{...}" />
+                <marker date="1517840649435" expanded="true" signature="288:347" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutofacContainer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="24" column="101" lean-forward="false" selection-start-line="24" selection-start-column="101" selection-end-line="24" selection-end-column="101" />
+              <folding>
+                <marker date="1517840847102" expanded="false" signature="6:469" ph="..." />
+                <marker date="1517840847102" expanded="true" signature="496:1143" ph="{...}" />
+                <marker date="1517840847102" expanded="true" signature="541:1141" ph="{...}" />
+                <marker date="1517840847102" expanded="true" signature="610:1135" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToyotaGateway.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <marker date="1517840629365" expanded="false" signature="6:59" ph="..." />
+                <marker date="1517840629365" expanded="true" signature="104:385" ph="{...}" />
+                <marker date="1517840629365" expanded="true" signature="152:383" ph="{...}" />
+                <marker date="1517840629365" expanded="true" signature="193:377" ph="{...}" />
+                <marker date="1517840629365" expanded="true" signature="249:366" ph="{...}" />
+                <marker date="1517840629365" expanded="true" signature="291:352" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Car.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Distributor.Domain/Car.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <marker date="1517840580504" expanded="true" signature="28:107" ph="{...}" />
+                <marker date="1517840580504" expanded="true" signature="51:105" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -56,22 +154,23 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Distributor.Domain/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Domain/Interfaces/IDistributorService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Domain/Brands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Distributor/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Distributor/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/IBrandGateway.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordGateway.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Distributor.Domain/Common/ExtensionMethods/GetEnumDescription.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Ford/Interfaces/IFordProxy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Ford/Interfaces/IFordMapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Distributor/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/ObjectFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/IToyotaMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Distributor.Domain/Common/Interfaces/IObjectFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/IToyotaProxy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordProxy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Distributor/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaProxy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/IObjectFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/ObjectFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -83,25 +182,28 @@
         <option value="$PROJECT_DIR$/Distributor.Infrastructure.Data/Class1.cs" />
         <option value="$PROJECT_DIR$/Distributor.IoC/Class1.cs" />
         <option value="$PROJECT_DIR$/Distributor.Domain/Brands.cs" />
-        <option value="$PROJECT_DIR$/Distributor.Domain/Car.cs" />
         <option value="$PROJECT_DIR$/Distributor.Domain/Interfaces/IDistributorService.cs" />
         <option value="$PROJECT_DIR$/Distributor.IoC/Container.cs" />
         <option value="$PROJECT_DIR$/Distributor/Startup.cs" />
         <option value="$PROJECT_DIR$/Distributor/Program.cs" />
         <option value="$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/IBrandGateway.cs" />
-        <option value="$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordGateway.cs" />
-        <option value="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/Ford/Interfaces/IFordMapper.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/IToyotaMapper.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/Ford/Interfaces/IFordProxy.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordProxy.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/IToyotaProxy.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaProxy.cs" />
-        <option value="$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" />
-        <option value="$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/ObjectFactory.cs" />
         <option value="$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/IObjectFactory.cs" />
+        <option value="$PROJECT_DIR$/Distributor.Domain/Distributor.Domain.csproj" />
+        <option value="$PROJECT_DIR$/Distributor.Domain/Common/ExtensionMethods/GetEnumDescription.cs" />
+        <option value="$PROJECT_DIR$/Distributor.Domain/Common/Interfaces/IObjectFactory.cs" />
+        <option value="$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/ObjectFactory.cs" />
         <option value="$PROJECT_DIR$/Distributor.Service/DistributorService.cs" />
+        <option value="$PROJECT_DIR$/Distributor.Domain/Car.cs" />
+        <option value="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs" />
+        <option value="$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordGateway.cs" />
+        <option value="$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" />
       </list>
     </option>
   </component>
@@ -111,9 +213,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="697" />
+    <option name="width" value="773" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -152,6 +254,55 @@
               <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Distributor" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Common" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Common" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Interfaces" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name=".NETCoreApp 2" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Common" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Common" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ObjectFactory" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -217,12 +368,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517514206717</updated>
       <workItem from="1517514209987" duration="552000" />
-      <workItem from="1517834306204" duration="3903000" />
+      <workItem from="1517834306204" duration="5990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4455000" />
+    <option name="totallyTimeSpent" value="6542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,7 +385,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -242,15 +393,15 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4421553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5868167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5863708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4533762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4992658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32475883" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32329637" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40412045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -259,6 +410,30 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4421553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5863708" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4533762" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32329637" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051447" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -282,8 +457,34 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
+            <startOffsets>
+              <startOffset value="1116" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1133" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
+            <startOffsets>
+              <startOffset value="775" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="807" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -326,28 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Brands.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1517835822875" expanded="true" signature="58:192" ph="{...}" />
-            <marker date="1517835822875" expanded="true" signature="83:190" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Car.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1517835990364" expanded="true" signature="28:74" ph="{...}" />
-            <marker date="1517835990364" expanded="true" signature="51:72" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -378,66 +557,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordGateway.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <marker date="1517838042351" expanded="true" signature="6:59" ph="..." />
-            <marker date="1517838042351" expanded="true" signature="102:273" ph="{...}" />
-            <marker date="1517838042351" expanded="true" signature="148:271" ph="{...}" />
-            <marker date="1517838042351" expanded="true" signature="189:265" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <marker date="1517838042398" expanded="true" signature="6:59" ph="..." />
-            <marker date="1517838042398" expanded="true" signature="104:277" ph="{...}" />
-            <marker date="1517838042398" expanded="true" signature="152:275" ph="{...}" />
-            <marker date="1517838042398" expanded="true" signature="193:269" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/IObjectFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <marker date="1517838611053" expanded="true" signature="57:160" ph="{...}" />
-            <marker date="1517838611053" expanded="true" signature="95:158" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/ObjectFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <marker date="1517838598347" expanded="true" signature="73:447" ph="{...}" />
-            <marker date="1517838598347" expanded="true" signature="121:445" ph="{...}" />
-            <marker date="1517838598347" expanded="true" signature="249:305" ph="{...}" />
-            <marker date="1517838598347" expanded="true" signature="362:436" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <marker date="1517838444297" expanded="true" signature="6:294" ph="..." />
-            <marker date="1517838444297" expanded="true" signature="321:839" ph="{...}" />
-            <marker date="1517838444297" expanded="true" signature="366:837" ph="{...}" />
-            <marker date="1517838444297" expanded="true" signature="435:831" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -525,10 +649,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Distributor.Domain.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/ObjectFactory/ObjectFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1517839613933" expanded="true" signature="6:58" ph="..." />
+            <marker date="1517839613933" expanded="true" signature="117:490" ph="{...}" />
+            <marker date="1517839613933" expanded="true" signature="165:488" ph="{...}" />
+            <marker date="1517839613933" expanded="true" signature="293:349" ph="{...}" />
+            <marker date="1517839613933" expanded="true" signature="405:479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Common/Interfaces/IObjectFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding>
+            <marker date="1517839599024" expanded="true" signature="46:156" ph="{...}" />
+            <marker date="1517839599024" expanded="true" signature="84:154" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Car.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1517840580504" expanded="true" signature="28:107" ph="{...}" />
+            <marker date="1517840580504" expanded="true" signature="51:105" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <marker date="1517840629365" expanded="false" signature="6:59" ph="..." />
+            <marker date="1517840629365" expanded="true" signature="104:385" ph="{...}" />
+            <marker date="1517840629365" expanded="true" signature="152:383" ph="{...}" />
+            <marker date="1517840629365" expanded="true" signature="193:377" ph="{...}" />
+            <marker date="1517840629365" expanded="true" signature="249:366" ph="{...}" />
+            <marker date="1517840629365" expanded="true" signature="291:352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Common/ExtensionMethods/GetEnumDescription.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <marker date="1517839136150" expanded="false" signature="6:67" ph="..." />
+            <marker date="1517839136150" expanded="true" signature="121:497" ph="{...}" />
+            <marker date="1517839136150" expanded="true" signature="166:495" ph="{...}" />
+            <marker date="1517839136150" expanded="true" signature="233:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Domain/Brands.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <marker date="1517835822875" expanded="true" signature="58:192" ph="{...}" />
+            <marker date="1517835822875" expanded="true" signature="83:190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="24" column="101" lean-forward="false" selection-start-line="24" selection-start-column="101" selection-end-line="24" selection-end-column="101" />
+          <folding>
+            <marker date="1517840847102" expanded="false" signature="6:469" ph="..." />
+            <marker date="1517840847102" expanded="true" signature="496:1143" ph="{...}" />
+            <marker date="1517840847102" expanded="true" signature="541:1141" ph="{...}" />
+            <marker date="1517840847102" expanded="true" signature="610:1135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <marker date="1517837658243" expanded="false" signature="6:68" ph="..." />
             <marker date="1517837658243" expanded="true" signature="103:551" ph="{...}" />
@@ -539,15 +759,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Ford/FordGateway.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <marker date="1517840649435" expanded="false" signature="6:59" ph="..." />
+            <marker date="1517840649435" expanded="true" signature="102:380" ph="{...}" />
+            <marker date="1517840649435" expanded="true" signature="149:378" ph="{...}" />
+            <marker date="1517840649435" expanded="true" signature="190:372" ph="{...}" />
+            <marker date="1517840649435" expanded="true" signature="246:361" ph="{...}" />
+            <marker date="1517840649435" expanded="true" signature="288:347" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="198">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding>
-            <marker date="1517838646216" expanded="false" signature="6:96" ph="..." />
-            <marker date="1517838646216" expanded="true" signature="127:305" ph="{...}" />
-            <marker date="1517838646216" expanded="true" signature="187:303" ph="{...}" />
-            <marker date="1517838646216" expanded="true" signature="228:297" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="6:362" ph="..." />
+            <marker date="1517840549775" expanded="true" signature="393:1152" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="453:1150" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="580:644" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="680:1143" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="866:1100" ph="{...}" />
           </folding>
         </state>
       </provider>
