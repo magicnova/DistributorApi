@@ -2,4 +2,10 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Distributor.Domain\Distributor.Domain.csproj">
+      <Project>{ED9EE273-B9ED-4B2B-BEAC-009A72E9CBF4}</Project>
+      <Name>Distributor.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

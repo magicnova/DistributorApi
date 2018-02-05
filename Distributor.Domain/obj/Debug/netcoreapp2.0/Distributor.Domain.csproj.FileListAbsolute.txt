@@ -1,8 +1,0 @@
-C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Domain\bin\Debug\netcoreapp2.0\Distributor.Domain.deps.json
-C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Domain\bin\Debug\netcoreapp2.0\Distributor.Domain.dll
-C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Domain\bin\Debug\netcoreapp2.0\Distributor.Domain.pdb
-C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Domain\obj\Debug\netcoreapp2.0\Distributor.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Domain\obj\Debug\netcoreapp2.0\Distributor.Domain.AssemblyInfoInputs.cache
-C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Domain\obj\Debug\netcoreapp2.0\Distributor.Domain.AssemblyInfo.cs
-C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Domain\obj\Debug\netcoreapp2.0\Distributor.Domain.dll
-C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Domain\obj\Debug\netcoreapp2.0\Distributor.Domain.pdb
