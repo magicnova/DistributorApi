@@ -1,0 +1,8 @@
+C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Service\bin\Debug\netcoreapp2.0\Distributor.Service.deps.json
+C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Service\bin\Debug\netcoreapp2.0\Distributor.Service.dll
+C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Service\bin\Debug\netcoreapp2.0\Distributor.Service.pdb
+C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Service\obj\Debug\netcoreapp2.0\Distributor.Service.csproj.CoreCompileInputs.cache
+C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Service\obj\Debug\netcoreapp2.0\Distributor.Service.AssemblyInfoInputs.cache
+C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Service\obj\Debug\netcoreapp2.0\Distributor.Service.AssemblyInfo.cs
+C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Service\obj\Debug\netcoreapp2.0\Distributor.Service.dll
+C:\Users\Casa\Documents\Dev\services\Distributor\Distributor.Service\obj\Debug\netcoreapp2.0\Distributor.Service.pdb
