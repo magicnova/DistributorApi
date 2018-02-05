@@ -8,6 +8,7 @@ namespace Distributor.Service
     {
         public IList<Car> GetAll()
         {
+            
             return new List<Car>();
         }
     }
