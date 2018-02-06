@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices.ComTypes;
@@ -37,32 +38,43 @@ namespace Distributor.Service
 
         public IList<Car> GetByModel(string brand, string model)
         {
+            brand = NormalizeBrand(brand);
             var brandGateway = _objectFactory.Create<IBrandGateway>(brand);
             return brandGateway.GetByModel(model);
         }
 
         public IList<Car> GetByTransmission(string brand, string transmission)
         {
+            brand = NormalizeBrand(brand);
             var brandGateway = _objectFactory.Create<IBrandGateway>(brand);
             return brandGateway.GetByTransmission(transmission);
         }
 
         public IList<Car> GetByEngine(string brand, string engine)
         {
+            brand = NormalizeBrand(brand);
             var brandGateway = _objectFactory.Create<IBrandGateway>(brand);
             return brandGateway.GetByEngine(engine);
         }
 
         public IList<Car> GetByYear(string brand, int year)
         {
+            brand = NormalizeBrand(brand);
             var brandGateway = _objectFactory.Create<IBrandGateway>(brand);
             return brandGateway.GetByYear(year);
         }
 
         public Car GetById(string brand, string id)
         {
+            brand = NormalizeBrand(brand);
             var brandGateway = _objectFactory.Create<IBrandGateway>(brand);
             return brandGateway.GetById(id);
         }
+        
+        private string NormalizeBrand(string brand)
+        {
+            return brand.ToLower().Contains("toyota") ? Brands.Toyota.GetDesctiption() : Brands.Ford.GetDesctiption();
+        }
+
     }
 }
