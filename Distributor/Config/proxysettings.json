@@ -1,0 +1,25 @@
+﻿{
+  "apiFord":{
+    "url":"http://localhost:5002",
+    "actions":
+      {
+      "GET_ALL":"/api/Ford/",
+      "GET_BY_MODEL":"/api/Ford/model/",
+      "GET_BY_TRANSMISSION":"/api/Ford/transmission/",
+      "GET_BY_YEAR":"/api/Toyota/Ford/",
+      "GET_BY_ENGINE":"/api/Ford/engine/",
+      "GET_BY_ID":"/api/Ford/"
+      }
+  },
+  "apiToyota":{
+    "url":"http://localhost:5001",
+    "actions":
+      {"GET_ALL": "/api/Toyota/",
+      "GET_BY_MODEL": "/api/To1yota/model/",
+       "GET_BY_TRANSMISSION": "/api/Toyota/transmission/",
+       "GET_BY_YEAR": "/api/Toyota/year/",
+       "GET_BY_ENGINE": "/api/Toyota/engine/",
+        "GET_BY_ID": "/api/Toyota/"
+      }
+  }
+}

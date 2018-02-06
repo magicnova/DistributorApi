@@ -7,8 +7,13 @@
       <Project>{ED9EE273-B9ED-4B2B-BEAC-009A72E9CBF4}</Project>
       <Name>Distributor.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Distributor.Infrastructure.Data\Distributor.Infrastructure.Data.csproj">
+      <Project>{CC36C5B5-0E7D-437E-9FED-B45A7EED0CF7}</Project>
+      <Name>Distributor.Infrastructure.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.0.0" />
   </ItemGroup>
 </Project>
