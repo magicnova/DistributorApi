@@ -5,9 +5,9 @@
       {
       "GET_ALL":"/api/Ford/",
       "GET_BY_MODEL":"/api/Ford/model/",
-      "GET_BY_TRANSMISSION":"/api/Ford/transmission/",
+      "GET_BY_GEARBOX":"/api/Ford/gearbox/",
       "GET_BY_YEAR":"/api/Toyota/Ford/",
-      "GET_BY_ENGINE":"/api/Ford/engine/",
+      "GET_BY_MOTOR":"/api/Ford/motor/",
       "GET_BY_ID":"/api/Ford/"
       }
   },
