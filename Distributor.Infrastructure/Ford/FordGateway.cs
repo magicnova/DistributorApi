@@ -60,7 +60,8 @@ namespace Distributor.Infrastructure.Ford
 
         public void Create(CarRequest car)
         {
-            throw new System.NotImplementedException();
+            _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
+            _fordProxy.Create(car, _configuration.Value);
         }
 
         public void Update(CarRequest car)

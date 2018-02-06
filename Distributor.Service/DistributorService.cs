@@ -5,6 +5,7 @@ using Distributor.Domain;
 using Distributor.Domain.Common.ExtensionMethods;
 using Distributor.Domain.Common.Interfaces;
 using Distributor.Domain.Interfaces;
+using Distributor.Domain.Requests;
 using Distributor.Infrastructure;
 
 namespace Distributor.Service
@@ -12,7 +13,6 @@ namespace Distributor.Service
     public class DistributorService : IDistributorService
     {
         private readonly IObjectFactory _objectFactory;
-
         public DistributorService(IObjectFactory objectFactory)
         {
             _objectFactory = objectFactory;
@@ -67,7 +67,7 @@ namespace Distributor.Service
             var brandGateway = _objectFactory.Create<IBrandGateway>(brand);
             return brandGateway.GetById(id);
         }
-        
+
         private string NormalizeBrand(string brand)
         {
             return brand.ToLower().Contains("toyota") ? Brands.Toyota.GetDesctiption() : Brands.Ford.GetDesctiption();

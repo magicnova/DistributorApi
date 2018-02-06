@@ -1,4 +1,6 @@
-﻿using Distributor.Domain.Interfaces;
+﻿using Distributor.Domain;
+using Distributor.Domain.Interfaces;
+using Distributor.Domain.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Distributor.Controllers
@@ -7,10 +9,11 @@ namespace Distributor.Controllers
     public class DistributorController : Controller
     {
         private readonly IDistributorService _distributorService;
-
-        public DistributorController(IDistributorService distributorService)
+        private readonly IFordService _fordService;
+        public DistributorController(IDistributorService distributorService, IFordService fordService)
         {
             _distributorService = distributorService;
+            _fordService = fordService;
         }
 
         [HttpGet]
@@ -47,6 +50,13 @@ namespace Distributor.Controllers
         public IActionResult GetById(string brand,string id)
         {
             return Ok(_distributorService.GetById(brand, id));
+        }
+
+        [HttpPost("{brand}")]
+        public IActionResult Post(string brand, [FromBody] CarRequest car)
+        {
+            _fordService.Create(car);
+            return Ok();
         }
         
     }

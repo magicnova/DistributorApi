@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Distributor.Domain;
 using Distributor.Domain.Configuration;
+using Distributor.Domain.Requests;
 
 namespace Distributor.Infrastructure.Ford.Interfaces
 {
@@ -12,5 +13,6 @@ namespace Distributor.Infrastructure.Ford.Interfaces
         IList<Car> GetByMotor(FordConfiguration configuration, string engine);
         IList<Car> GetByYear(FordConfiguration configuration, int year);
         Car GetById(FordConfiguration configuration, string id);
+        void Create(CarRequest car, FordConfiguration configurationValue);
     }
 }

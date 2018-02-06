@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Distributor.Domain.Requests;
 
 namespace Distributor.Domain.Interfaces
 {

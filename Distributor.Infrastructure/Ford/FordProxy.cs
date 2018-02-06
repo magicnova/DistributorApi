@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http;
 using System.Text;
 using Distributor.Domain;
 using Distributor.Domain.Configuration;
+using Distributor.Domain.Requests;
 using Distributor.Infrastructure.Common.HttpClient;
 using Distributor.Infrastructure.Ford.Interfaces;
 using MongoDB.Driver.Core.Operations;
+using Newtonsoft.Json;
 
 namespace Distributor.Infrastructure.Ford
 {
@@ -80,7 +83,16 @@ namespace Distributor.Infrastructure.Ford
 
             return _fordMapper.MapCarToDomain(cars);
         }
-        
+
+        public void Create(CarRequest car, FordConfiguration configuration)
+        {
+            var headerValue = GetHeader(configuration);
+            var url = $"{GetUrl("CREATE",configuration)}"; 
+            var content= new  StringContent(JsonConvert.SerializeObject(car), Encoding.UTF8, "application/json");
+
+            _httpClient.Post(url, content, "Bearer", headerValue);
+        }
+
         private string GetUrl(string action, FordConfiguration configuration)
         {
             var baseUrl = configuration.BaseUrl;

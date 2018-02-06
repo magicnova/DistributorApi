@@ -36,6 +36,8 @@ namespace Distributor.IoC
             
             builder.RegisterType<ToyotaProxy>().As<IToyotaProxy>();
             builder.RegisterType<ToyotaMapper>().As<IToyotaMapper>();
-            }
+
+            builder.RegisterType<FordService>().As<IFordService>();
+        }
     }
 }
