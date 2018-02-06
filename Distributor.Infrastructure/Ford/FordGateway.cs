@@ -16,5 +16,30 @@ namespace Distributor.Infrastructure.Ford
                 }
             };
         }
+
+        public IList<Car> GetByModel(string model)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IList<Car> GetByTransmission(string transmission)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IList<Car> GetByEngine(string engine)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IList<Car> GetByYear(int year)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Car GetById(string id)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

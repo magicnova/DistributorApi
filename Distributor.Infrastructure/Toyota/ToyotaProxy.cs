@@ -70,14 +70,14 @@ namespace Distributor.Infrastructure.Toyota
             return _toyotaMapper.MapCarsToDomain(cars);     
         }
 
-        public IList<Car> GetById(ToyotaConfiguration configuration, int id)
+        public Car GetById(ToyotaConfiguration configuration, int id)
         {
             var headerValue = GetHeader(configuration);
             var url = $"{GetUrl("GET_BY_ID",configuration)}{id}";
 
             var cars = _httpClient.Get(url, headerValue, "BASIC");
 
-            return _toyotaMapper.MapCarsToDomain(cars);     
+            return _toyotaMapper.MapCarToDomain(cars);     
         }
 
         private string GetUrl(string action, ToyotaConfiguration configuration)
