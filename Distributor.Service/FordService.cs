@@ -17,14 +17,14 @@ namespace Distributor.Service
             return _fordGateway.Create(car);
         }
         
-        public void Update(CarRequest car)
+        public int Update(CarRequest car)
         {
-            _fordGateway.Update(car);
+            return _fordGateway.Update(car);
         }
 
-        public void Delete(string id)
+        public int Delete(string id)
         {
-            _fordGateway.Delete(id);
+            return _fordGateway.Delete(id);
         }
     }
 }

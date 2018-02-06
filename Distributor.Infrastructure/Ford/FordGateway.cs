@@ -64,14 +64,16 @@ namespace Distributor.Infrastructure.Ford
            return _fordProxy.Create(car, _configuration.Value);
         }
 
-        public void Update(CarRequest car)
+        public int Update(CarRequest car)
         {
-            throw new System.NotImplementedException();
+            _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
+            return _fordProxy.Update(car, _configuration.Value);
         }
 
-        public void Delete(string id)
+        public int Delete(string id)
         {
-            throw new System.NotImplementedException();
+            _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
+            return _fordProxy.Delete(id, _configuration.Value);
         }
     }
 }

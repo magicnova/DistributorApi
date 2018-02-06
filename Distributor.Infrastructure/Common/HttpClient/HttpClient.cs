@@ -27,9 +27,35 @@ namespace Distributor.Infrastructure.Common.HttpClient
                 client.BaseAddress = new Uri(url);
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", headerValue);
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(schema, headerValue);
 
                  return client.PostAsync(url,content).Result;
+            }
+        }
+
+        public HttpResponseMessage Delete(string url, string schema, string headerValue)
+        {
+            using (var client = new System.Net.Http.HttpClient())
+            {
+                client.BaseAddress = new Uri(url);
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(schema, headerValue);
+
+                return client.DeleteAsync(url).Result;
+            }
+        }
+
+        public HttpResponseMessage Put(string url, StringContent content, string schema, string headerValue)
+        {
+            using (var client = new System.Net.Http.HttpClient())
+            {
+                client.BaseAddress = new Uri(url);
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(schema, headerValue);
+
+                return client.PutAsync(url,content).Result;
             }
         }
     }

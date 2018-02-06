@@ -65,6 +65,30 @@ namespace Distributor.Controllers
             
             var status = _fordService.Create(car);
             return StatusCode(status);
-        }  
+        }
+
+        [HttpPut("{brand}")]
+        public IActionResult Put(string brand, [FromBody] CarRequest car)
+        {
+            if (brand.ToLower() != Brands.Ford.GetDesctiption().ToLower())
+            {
+                return StatusCode(StatusCodes.Status405MethodNotAllowed);
+            }
+            
+            var status = _fordService.Update(car);
+            return StatusCode(status);
+        }
+        
+        [HttpDelete("{brand}/{id}")]
+        public IActionResult Delete(string brand, string id)
+        {
+            if (brand.ToLower() != Brands.Ford.GetDesctiption().ToLower())
+            {
+                return StatusCode(StatusCodes.Status405MethodNotAllowed);
+            }
+            
+            var status = _fordService.Delete(id);
+            return StatusCode(status);
+        }
     }
 }

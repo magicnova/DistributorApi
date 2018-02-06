@@ -14,5 +14,7 @@ namespace Distributor.Infrastructure.Ford.Interfaces
         IList<Car> GetByYear(FordConfiguration configuration, int year);
         Car GetById(FordConfiguration configuration, string id);
         int Create(CarRequest car, FordConfiguration configurationValue);
+        int Update(CarRequest car, FordConfiguration configuration);
+        int Delete(string id, FordConfiguration configuration);
     }
 }

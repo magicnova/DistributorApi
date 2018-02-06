@@ -95,6 +95,24 @@ namespace Distributor.Infrastructure.Ford
               return (int)result.StatusCode;
         }
 
+        public int Update(CarRequest car, FordConfiguration configuration)
+        {
+            var headerValue = GetHeader(configuration);
+            var url = $"{GetUrl("UPDATE",configuration)}"; 
+            var content= new  StringContent(JsonConvert.SerializeObject(car), Encoding.UTF8, "application/json");
+
+            var result = _httpClient.Put(url, content, "Bearer", headerValue);
+            return (int)result.StatusCode;
+        }
+
+        public int Delete(string id, FordConfiguration configuration)
+        {
+            var headerValue = GetHeader(configuration);
+            var url = $"{GetUrl("DELETE",configuration)}{id}";
+            var result = _httpClient.Delete(url, "Bearer", headerValue);
+            return (int)result.StatusCode;
+        }
+
         private string GetUrl(string action, FordConfiguration configuration)
         {
             var baseUrl = configuration.BaseUrl;

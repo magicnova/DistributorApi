@@ -5,7 +5,7 @@ namespace Distributor.Domain.Interfaces
     public interface IFordService
     {
         int Create(CarRequest car);
-        void Update(CarRequest car);
-        void Delete(string id);
+        int Update(CarRequest car);
+        int Delete(string id);
     }
 }
