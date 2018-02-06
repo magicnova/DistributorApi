@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Distributor.Domain;
+using Distributor.Domain.Common.ExtensionMethods;
 
 namespace Distributor.Infrastructure.Ford
 {
@@ -11,7 +12,7 @@ namespace Distributor.Infrastructure.Ford
             {
                 new Car
                 {
-                    Brand = Brands.Ford
+                    Brand = Brands.Ford.GetDesctiption()
                 }
             };
         }

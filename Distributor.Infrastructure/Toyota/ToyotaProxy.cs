@@ -13,12 +13,12 @@ namespace Distributor.Infrastructure.Toyota
     public class ToyotaProxy : IToyotaProxy
     {
         private readonly IHttpClient _httpClient;
-        private readonly IFordMapper _fordMapper;
-        public ToyotaProxy(IHttpClient httpClient, IFordMapper fordMapper)
-        {
-            _httpClient = httpClient;
-            _fordMapper = fordMapper;
-        }
+        private readonly IToyotaMapper _toyotaMapper;
+    public ToyotaProxy(IHttpClient httpClient, IToyotaMapper toyotaMapper)
+    {
+        _httpClient = httpClient;
+        _toyotaMapper = toyotaMapper;
+    }
 
         public IList<Car> GetAll(ToyotaConfiguration configuration)
         {
@@ -27,7 +27,7 @@ namespace Distributor.Infrastructure.Toyota
 
             var cars = _httpClient.Get(url, headerValue, "BASIC");
 
-            return _fordMapper.MapJsonToDomain(cars);
+            return _toyotaMapper.MapCarsToDomain(cars);
         }
 
         private string GetUrl(string action, ToyotaConfiguration configuration)
