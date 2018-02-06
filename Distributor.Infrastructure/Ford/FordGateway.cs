@@ -2,13 +2,14 @@
 using Distributor.Domain;
 using Distributor.Domain.Common.ExtensionMethods;
 using Distributor.Domain.Configuration;
+using Distributor.Domain.Requests;
 using Distributor.Infrastructure.Data.Configuration;
 using Distributor.Infrastructure.Ford.Interfaces;
 using Microsoft.Extensions.Options;
 
 namespace Distributor.Infrastructure.Ford
 {
-    public class FordGateway : IBrandGateway
+    public class FordGateway : IBrandGateway,IFordGateway
     {
         private readonly IFordProxy _fordProxy;
         private readonly IConfigurationRepository _configurationRepository;
@@ -29,25 +30,45 @@ namespace Distributor.Infrastructure.Ford
 
         public IList<Car> GetByModel(string model)
         {
-            throw new System.NotImplementedException();
+            _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
+            return _fordProxy.GetByModel(_configuration.Value,model);
         }
 
         public IList<Car> GetByTransmission(string transmission)
         {
-            throw new System.NotImplementedException();
+            _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
+            return _fordProxy.GetByGearBox(_configuration.Value,transmission);
         }
 
         public IList<Car> GetByEngine(string engine)
         {
-            throw new System.NotImplementedException();
+            _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
+            return _fordProxy.GetByMotor(_configuration.Value,engine);
         }
 
         public IList<Car> GetByYear(int year)
         {
-            throw new System.NotImplementedException();
+            _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
+            return _fordProxy.GetByYear(_configuration.Value,year);
         }
 
         public Car GetById(string id)
+        {
+            _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
+            return _fordProxy.GetById(_configuration.Value,id);
+        }
+
+        public void Create(CarRequest car)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Update(CarRequest car)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Delete(string id)
         {
             throw new System.NotImplementedException();
         }

@@ -11,6 +11,6 @@ namespace Distributor.Infrastructure.Ford.Interfaces
         IList<Car> GetByGearBox(FordConfiguration configuration, string gearBox);
         IList<Car> GetByMotor(FordConfiguration configuration, string engine);
         IList<Car> GetByYear(FordConfiguration configuration, int year);
-        Car GetById(FordConfiguration configuration, int id);
+        Car GetById(FordConfiguration configuration, string id);
     }
 }

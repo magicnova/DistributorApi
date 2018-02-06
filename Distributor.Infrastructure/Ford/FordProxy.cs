@@ -71,7 +71,7 @@ namespace Distributor.Infrastructure.Ford
             return _fordMapper.MapCarsToDomain(cars);
         }
 
-        public Car GetById(FordConfiguration configuration, int id)
+        public Car GetById(FordConfiguration configuration, string id)
         {
             var headerValue = GetHeader(configuration);
             var url = $"{GetUrl("GET_BY_ID",configuration)}{id}";
