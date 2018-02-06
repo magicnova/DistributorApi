@@ -5,6 +5,7 @@ namespace Distributor.Infrastructure.Ford.Interfaces
 {
     public interface IFordMapper
     {
-        IList<Car> MapJsonToDomain(string json);
+        IList<Car> MapCarsToDomain(string json);
+        Car MapCarToDomain(string json);
     }
 }

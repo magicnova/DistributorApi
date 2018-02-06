@@ -32,8 +32,8 @@ namespace Distributor
             services.Configure<ToyotaConfiguration>(
                 (Options) =>
                 {
-                    Options.BaseUrl = Configuration.GetSection("apiFord:url").Value;
-                    Options.Actions = Configuration.GetSection("apiFord:actions").GetChildren()
+                    Options.BaseUrl = Configuration.GetSection("apiToyota:url").Value;
+                    Options.Actions = Configuration.GetSection("apiToyota:actions").GetChildren()
                         .Select(item => new KeyValuePair<string, string>(item.Key, item.Value))
                         .ToDictionary(x => x.Key, x => x.Value);
                 }

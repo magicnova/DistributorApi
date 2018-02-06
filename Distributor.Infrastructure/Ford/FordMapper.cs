@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Distributor.Domain;
 using Distributor.Domain.Common.ExtensionMethods;
 using Distributor.Infrastructure.Ford.Interfaces;
@@ -8,20 +9,34 @@ namespace Distributor.Infrastructure.Ford
 {
     public class FordMapper : IFordMapper
     {
-        public IList<Car> MapJsonToDomain(string json)
+        public IList<Car> MapCarsToDomain(string json)
         {
-            var  jCars = JArray.Parse(json);
-            var cars = new List<Car>();
-            foreach (var car in jCars)
-            {
-                cars.Add(new Car
+            return JArray.Parse(json).Select(car =>
+                new Car
                 {
                     Brand = Brands.Ford.GetDesctiption(),
-                    Motor = car["motor"].ToString()
-                });
-            }
+                    Motor = car["motor"].ToString(),
+                    Active = (bool) car["active"],
+                    Id = car["id"].ToString(),
+                    Model = car["model"].ToString(),
+                    Transmission = car["gearBox"].ToString(),
+                    Year = (int) car["year"]
+                }).ToList();
+        }
 
-            return cars;
+        public Car MapCarToDomain(string json)
+        {
+            var car = JObject.Parse(json);
+            return new Car
+            {
+                Brand = Brands.Ford.GetDesctiption(),
+                Motor = car["motor"].ToString(),
+                Active = (bool) car["active"],
+                Id = car["id"].ToString(),
+                Model = car["model"].ToString(),
+                Transmission = car["gearBox"].ToString(),
+                Year = (int) car["year"]
+            };
         }
     }
 }
