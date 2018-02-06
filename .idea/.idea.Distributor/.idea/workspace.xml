@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d06f006-17c8-46b6-8b68-101108567bf4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Distributor/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Domain/Car.cs" afterPath="$PROJECT_DIR$/Distributor.Domain/Car.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Distributor.Infrastructure.csproj" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Distributor.Infrastructure.csproj" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Ford/Interfaces/IFordMapper.cs" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Ford/Interfaces/IFordMapper.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/IToyotaMapper.cs" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/IToyotaMapper.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/IToyotaProxy.cs" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/IToyotaProxy.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaProxy.cs" afterPath="$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaProxy.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" afterPath="$PROJECT_DIR$/Distributor.IoC/AutofacContainer.cs" />
-      <change beforePath="$PROJECT_DIR$/Distributor/Startup.cs" afterPath="$PROJECT_DIR$/Distributor/Startup.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +37,7 @@
       <file leaf-file-name="DistributorController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="135">
               <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <marker date="1517837658243" expanded="false" signature="6:68" ph="..." />
@@ -62,8 +53,8 @@
       <file leaf-file-name="DistributorService.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="141">
+              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <marker date="1517840549775" expanded="false" signature="6:362" ph="..." />
                 <marker date="1517840549775" expanded="true" signature="393:1152" ph="{...}" />
@@ -92,7 +83,7 @@
       <file leaf-file-name="ToyotaGateway.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="141">
               <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
                 <marker date="1517856156245" expanded="false" signature="6:304" ph="..." />
@@ -108,8 +99,8 @@
       <file leaf-file-name="ToyotaProxy.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaProxy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+            <state relative-caret-position="240">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <marker date="1517884354878" expanded="false" signature="6:305" ph="..." />
                 <marker date="1517884354878" expanded="true" signature="350:1675" ph="{...}" />
@@ -123,12 +114,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proxysettings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Distributor/Config/proxysettings.json">
+      <file leaf-file-name="HttpClient.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/HttpClient/HttpClient.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="213">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <marker date="1517856776908" expanded="false" signature="6:63" ph="..." />
+                <marker date="1517856776908" expanded="true" signature="119:824" ph="{...}" />
+                <marker date="1517856776908" expanded="true" signature="161:822" ph="{...}" />
+                <marker date="1517856776908" expanded="true" signature="238:816" ph="{...}" />
+                <marker date="1517856776908" expanded="true" signature="314:806" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -250,55 +247,20 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Service" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Config" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Service" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Common" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Common" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="HttpClient" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Ford" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Toyota" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor.Infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Toyota" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Interfaces" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Distributor (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Distributor.Infrastructure.Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Distributor.Service" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name=".NETCoreApp 2" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -362,12 +324,12 @@
       <updated>1517514206717</updated>
       <workItem from="1517514209987" duration="552000" />
       <workItem from="1517834306204" duration="7841000" />
-      <workItem from="1517855389898" duration="5973000" />
+      <workItem from="1517855389898" duration="7013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14366000" />
+    <option name="totallyTimeSpent" value="15406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,7 +342,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -388,7 +349,7 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4421553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5863708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5863708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4532488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -397,7 +358,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40412045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40412045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -507,7 +468,7 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -787,20 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/HttpClient/HttpClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <marker date="1517856776908" expanded="false" signature="6:63" ph="..." />
-            <marker date="1517856776908" expanded="true" signature="119:824" ph="{...}" />
-            <marker date="1517856776908" expanded="true" signature="161:822" ph="{...}" />
-            <marker date="1517856776908" expanded="true" signature="238:816" ph="{...}" />
-            <marker date="1517856776908" expanded="true" signature="314:806" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/Interfaces/ToyotaMapper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -881,20 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <marker date="1517856156245" expanded="false" signature="6:304" ph="..." />
-            <marker date="1517856156245" expanded="true" signature="349:1139" ph="{...}" />
-            <marker date="1517856156245" expanded="true" signature="398:1137" ph="{...}" />
-            <marker date="1517856156245" expanded="true" signature="743:911" ph="{...}" />
-            <marker date="1517856156245" expanded="true" signature="947:1131" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.Domain/Common/ExtensionMethods/GetEnumDescription.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -924,35 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <marker date="1517840549775" expanded="false" signature="6:362" ph="..." />
-            <marker date="1517840549775" expanded="true" signature="393:1152" ph="{...}" />
-            <marker date="1517840549775" expanded="true" signature="453:1150" ph="{...}" />
-            <marker date="1517840549775" expanded="true" signature="580:644" ph="{...}" />
-            <marker date="1517840549775" expanded="true" signature="680:1143" ph="{...}" />
-            <marker date="1517840549775" expanded="true" signature="866:1100" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <marker date="1517837658243" expanded="false" signature="6:68" ph="..." />
-            <marker date="1517837658243" expanded="true" signature="103:551" ph="{...}" />
-            <marker date="1517837658243" expanded="true" signature="189:549" ph="{...}" />
-            <marker date="1517837658243" expanded="true" signature="339:413" ph="{...}" />
-            <marker date="1517837658243" expanded="true" signature="470:543" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.Domain/Configuration/ToyotaConfiguration.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -961,14 +865,6 @@
             <marker date="1517883644369" expanded="true" signature="77:350" ph="{...}" />
             <marker date="1517883644369" expanded="true" signature="116:348" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Distributor/Config/proxysettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,10 +887,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor/Config/proxysettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor/Controllers/DistributorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <marker date="1517837658243" expanded="false" signature="6:68" ph="..." />
+            <marker date="1517837658243" expanded="true" signature="103:551" ph="{...}" />
+            <marker date="1517837658243" expanded="true" signature="189:549" ph="{...}" />
+            <marker date="1517837658243" expanded="true" signature="339:413" ph="{...}" />
+            <marker date="1517837658243" expanded="true" signature="470:543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Service/DistributorService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <marker date="1517840549775" expanded="false" signature="6:362" ph="..." />
+            <marker date="1517840549775" expanded="true" signature="393:1152" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="453:1150" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="580:644" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="680:1143" ph="{...}" />
+            <marker date="1517840549775" expanded="true" signature="866:1100" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaGateway.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <marker date="1517856156245" expanded="false" signature="6:304" ph="..." />
+            <marker date="1517856156245" expanded="true" signature="349:1139" ph="{...}" />
+            <marker date="1517856156245" expanded="true" signature="398:1137" ph="{...}" />
+            <marker date="1517856156245" expanded="true" signature="743:911" ph="{...}" />
+            <marker date="1517856156245" expanded="true" signature="947:1131" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Common/HttpClient/HttpClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <marker date="1517856776908" expanded="false" signature="6:63" ph="..." />
+            <marker date="1517856776908" expanded="true" signature="119:824" ph="{...}" />
+            <marker date="1517856776908" expanded="true" signature="161:822" ph="{...}" />
+            <marker date="1517856776908" expanded="true" signature="238:816" ph="{...}" />
+            <marker date="1517856776908" expanded="true" signature="314:806" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Distributor.Infrastructure/Toyota/ToyotaProxy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        <state relative-caret-position="240">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <marker date="1517884354878" expanded="false" signature="6:305" ph="..." />
             <marker date="1517884354878" expanded="true" signature="350:1675" ph="{...}" />
