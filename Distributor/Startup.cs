@@ -38,6 +38,16 @@ namespace Distributor
                         .ToDictionary(x => x.Key, x => x.Value);
                 }
             );
+            
+            services.Configure<FordConfiguration>(
+                (Options) =>
+                {
+                    Options.BaseUrl = Configuration.GetSection("apiFord:url").Value;
+                    Options.Actions = Configuration.GetSection("apiFord:actions").GetChildren()
+                        .Select(item => new KeyValuePair<string, string>(item.Key, item.Value))
+                        .ToDictionary(x => x.Key, x => x.Value);
+                }
+            );
             services.AddMvc();
         }
 
