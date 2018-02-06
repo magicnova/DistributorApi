@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using Distributor.Domain;
-using Distributor.Domain.Configuration;
 
 namespace Distributor.Infrastructure
 {
