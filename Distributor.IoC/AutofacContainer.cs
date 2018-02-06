@@ -8,6 +8,8 @@ using Distributor.Infrastructure.Common.HttpClient;
 using Distributor.Infrastructure.Common.ObjectFactory;
 using Distributor.Infrastructure.Data;
 using Distributor.Infrastructure.Data.Configuration;
+using Distributor.Infrastructure.Data.Context;
+using Distributor.Infrastructure.Data.Context.Interfaces;
 using Distributor.Infrastructure.Ford;
 using Distributor.Infrastructure.Ford.Interfaces;
 using Distributor.Infrastructure.Toyota;
@@ -21,7 +23,7 @@ namespace Distributor.IoC
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<ObjectFactory>().As<IObjectFactory>();
-
+            builder.RegisterType<DistributorContext>().As<IDistributorContext>();
             builder.RegisterType<ConfigurationRepository>().As<IConfigurationRepository>();
             builder.RegisterType<HttpClient>().As<IHttpClient>();
             builder.RegisterType<DistributorService>().As<IDistributorService>();

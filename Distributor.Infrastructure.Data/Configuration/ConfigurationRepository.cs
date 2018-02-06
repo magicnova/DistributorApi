@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using Distributor.Infrastructure.Data.Configuration;
 
-namespace Distributor.Infrastructure.Data
+namespace Distributor.Infrastructure.Data.Configuration
 {
     public class ConfigurationRepository :IConfigurationRepository
     {
