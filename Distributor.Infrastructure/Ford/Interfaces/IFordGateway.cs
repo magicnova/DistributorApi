@@ -4,7 +4,7 @@ namespace Distributor.Infrastructure.Ford.Interfaces
 {
     public interface IFordGateway
     {
-        void Create(CarRequest car);
+        int Create(CarRequest car);
         void Update(CarRequest car);
         void Delete(string id);
     }

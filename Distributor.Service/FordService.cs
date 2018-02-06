@@ -12,9 +12,9 @@ namespace Distributor.Service
             _fordGateway = fordGateway;
         }
 
-        public void Create(CarRequest car)
+        public int Create(CarRequest car)
         {
-            _fordGateway.Create(car);
+            return _fordGateway.Create(car);
         }
         
         public void Update(CarRequest car)

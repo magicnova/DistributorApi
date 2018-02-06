@@ -13,6 +13,6 @@ namespace Distributor.Infrastructure.Ford.Interfaces
         IList<Car> GetByMotor(FordConfiguration configuration, string engine);
         IList<Car> GetByYear(FordConfiguration configuration, int year);
         Car GetById(FordConfiguration configuration, string id);
-        void Create(CarRequest car, FordConfiguration configurationValue);
+        int Create(CarRequest car, FordConfiguration configurationValue);
     }
 }

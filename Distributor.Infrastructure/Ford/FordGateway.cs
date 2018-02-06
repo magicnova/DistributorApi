@@ -58,10 +58,10 @@ namespace Distributor.Infrastructure.Ford
             return _fordProxy.GetById(_configuration.Value,id);
         }
 
-        public void Create(CarRequest car)
+        public int Create(CarRequest car)
         {
             _configuration.Value.Credentials = _configurationRepository.GetFordConfiguration();
-            _fordProxy.Create(car, _configuration.Value);
+           return _fordProxy.Create(car, _configuration.Value);
         }
 
         public void Update(CarRequest car)

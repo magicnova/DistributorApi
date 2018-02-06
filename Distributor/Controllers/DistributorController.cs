@@ -1,6 +1,9 @@
-﻿using Distributor.Domain;
+﻿using System.Net;
+using Distributor.Domain;
+using Distributor.Domain.Common.ExtensionMethods;
 using Distributor.Domain.Interfaces;
 using Distributor.Domain.Requests;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Distributor.Controllers
@@ -55,9 +58,13 @@ namespace Distributor.Controllers
         [HttpPost("{brand}")]
         public IActionResult Post(string brand, [FromBody] CarRequest car)
         {
-            _fordService.Create(car);
-            return Ok();
-        }
-        
+            if (brand.ToLower() != Brands.Ford.GetDesctiption().ToLower())
+            {
+                return StatusCode(500);
+            }
+            
+            var status = _fordService.Create(car);
+            return StatusCode(status);
+        }  
     }
 }
