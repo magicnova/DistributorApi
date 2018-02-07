@@ -7,20 +7,23 @@ using Distributor.Domain.Common.Interfaces;
 using Distributor.Domain.Interfaces;
 using Distributor.Domain.Requests;
 using Distributor.Infrastructure;
+using Distributor.Infrastructure.Data.Brand;
 
 namespace Distributor.Service
 {
     public class DistributorService : IDistributorService
     {
         private readonly IObjectFactory _objectFactory;
-        public DistributorService(IObjectFactory objectFactory)
+        private readonly IBrandsRepository _brandsRepository;
+        public DistributorService(IObjectFactory objectFactory, IBrandsRepository brandsRepository)
         {
             _objectFactory = objectFactory;
+            _brandsRepository = brandsRepository;
         }
 
         public IList<Car> GetAll()
         {
-            var brands = new List<Brands> {Brands.Ford, Brands.Toyota};
+            var brands = _brandsRepository.GetActiveBrands();
             var brandCars = new List<Car>();
             
             Parallel.ForEach(brands, brand =>
@@ -41,7 +44,7 @@ namespace Distributor.Service
         }
 
         public IList<Car> GetByTransmission(string brand, string transmission)
-        {
+        {https://bitbucket.org/patao/seleccion-netcore
             brand = NormalizeBrand(brand);
             var brandGateway = _objectFactory.Create<IBrandGateway>(brand);
             return brandGateway.GetByTransmission(transmission);

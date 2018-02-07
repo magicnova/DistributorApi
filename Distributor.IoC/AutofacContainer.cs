@@ -9,6 +9,7 @@ using Distributor.Infrastructure;
 using Distributor.Infrastructure.Common.HttpClient;
 using Distributor.Infrastructure.Common.ObjectFactory;
 using Distributor.Infrastructure.Data;
+using Distributor.Infrastructure.Data.Brand;
 using Distributor.Infrastructure.Data.Configuration;
 using Distributor.Infrastructure.Data.Context;
 using Distributor.Infrastructure.Data.Context.Interfaces;
@@ -39,6 +40,8 @@ namespace Distributor.IoC
                      new NamedParameter("database",_configuration.GetSection("MongoConnection:Database").Value),
                 });
             builder.RegisterType<ConfigurationRepository>().As<IConfigurationRepository>();
+            builder.RegisterType<BrandsRepository>().As<IBrandsRepository>();
+            
             builder.RegisterType<HttpClient>().As<IHttpClient>();
             builder.RegisterType<DistributorService>().As<IDistributorService>();
 
