@@ -1,4 +1,5 @@
-﻿using Distributor.Domain;
+﻿using System.Linq;
+using Distributor.Domain;
 using Distributor.Domain.Common.ExtensionMethods;
 using Distributor.Domain.Interfaces;
 using Distributor.Domain.Requests;
@@ -14,6 +15,7 @@ namespace Distributor.Controllers
     {
         private readonly IDistributorService _distributorService;
         private readonly IFordService _fordService;
+
         public DistributorController(IDistributorService distributorService, IFordService fordService)
         {
             _distributorService = distributorService;
@@ -23,37 +25,79 @@ namespace Distributor.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_distributorService.GetAll());
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                return Ok(_distributorService.GetAll());
+            }
+
+            return new UnauthorizedResult();
         }
 
         [HttpGet("model/{brand}/{model}")]
-        public IActionResult GetByModel(string brand,string model)
+        public IActionResult GetByModel(string brand, string model)
         {
-            return Ok(_distributorService.GetByModel(brand, model));
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                return Ok(_distributorService.GetByModel(brand, model));
+            }
+
+            return new UnauthorizedResult();
         }
-        
+
         [HttpGet("transmission/{brand}/{transmission}")]
-        public IActionResult GetByTransmission(string brand,string transmission)
+        public IActionResult GetByTransmission(string brand, string transmission)
         {
-            return Ok(_distributorService.GetByTransmission(brand, transmission));
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                return Ok(_distributorService.GetByTransmission(brand, transmission));
+            }
+
+            return new UnauthorizedResult();
         }
-        
+
         [HttpGet("engine/{brand}/{engine}")]
-        public IActionResult GetByEngine(string brand,string engine)
+        public IActionResult GetByEngine(string brand, string engine)
         {
-            return Ok(_distributorService.GetByEngine(brand, engine));
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                return Ok(_distributorService.GetByEngine(brand, engine));
+            }
+
+            return new UnauthorizedResult();
         }
-        
+
         [HttpGet("year/{brand}/{year}")]
-        public IActionResult GetByYear(string brand,int year)
+        public IActionResult GetByYear(string brand, int year)
         {
-            return Ok(_distributorService.GetByYear(brand, year));
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                return Ok(_distributorService.GetByYear(brand, year));
+            }
+
+            return new UnauthorizedResult();
         }
-        
+
         [HttpGet("{brand}/{id}")]
-        public IActionResult GetById(string brand,string id)
+        public IActionResult GetById(string brand, string id)
         {
-            return Ok(_distributorService.GetById(brand, id));
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                return Ok(_distributorService.GetById(brand, id));
+            }
+
+            return new UnauthorizedResult();
         }
 
         [HttpPost("{brand}")]
@@ -63,9 +107,16 @@ namespace Distributor.Controllers
             {
                 return StatusCode(500);
             }
-            
-            var status = _fordService.Create(car);
-            return StatusCode(status);
+
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                var status = _fordService.Create(car);
+                return StatusCode(status);
+            }
+
+            return new UnauthorizedResult();
         }
 
         [HttpPut("{brand}")]
@@ -75,11 +126,18 @@ namespace Distributor.Controllers
             {
                 return StatusCode(StatusCodes.Status405MethodNotAllowed);
             }
-            
-            var status = _fordService.Update(car);
-            return StatusCode(status);
+
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                var status = _fordService.Update(car);
+                return StatusCode(status);
+            }
+
+            return new UnauthorizedResult();
         }
-        
+
         [HttpDelete("{brand}/{id}")]
         public IActionResult Delete(string brand, string id)
         {
@@ -87,9 +145,16 @@ namespace Distributor.Controllers
             {
                 return StatusCode(StatusCodes.Status405MethodNotAllowed);
             }
-            
-            var status = _fordService.Delete(id);
-            return StatusCode(status);
+
+            var user = User.Claims?.FirstOrDefault(c => c.Type == "User")?.Value;
+
+            if (user == "gp")
+            {
+                var status = _fordService.Delete(id);
+                return StatusCode(status);
+            }
+
+            return new UnauthorizedResult();
         }
     }
 }
