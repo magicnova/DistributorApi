@@ -4,6 +4,7 @@ namespace Distributor.Domain.Requests
 {
     public class CarRequest
     {
+        public string Id { get; set; }
         [Required]
         public string Model { get; set; }
         [Required]

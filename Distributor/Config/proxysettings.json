@@ -10,7 +10,8 @@
       "GET_BY_MOTOR":"/api/Ford/motor/",
       "GET_BY_ID":"/api/Ford/",
         "CREATE":"/api/Ford/",
-        "DELETE":"/api/Ford/"
+        "DELETE":"/api/Ford/",
+        "UPDATE":"/api/Ford/"
       }
   },
   "apiToyota":{
