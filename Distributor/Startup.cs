@@ -51,15 +51,9 @@ namespace Distributor
             services.AddMvc();
         }
 
-        private string Value()
-        {
-           var a = Configuration.GetSection("apiFord:actions").Value;
-            return a;
-        }
-
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            builder.RegisterModule(new AutofacContainer());
+            builder.RegisterModule(new AutofacContainer(Configuration));
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

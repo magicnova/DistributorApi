@@ -1,8 +1,10 @@
-﻿namespace Distributor.Infrastructure.Data.Schemas
+﻿using MongoDB.Bson;
+
+namespace Distributor.Infrastructure.Data.Schemas
 {
     public class CredentialsSchema
     {
-        public int ProviderId { get; set; }
+        public ObjectId Id { get; set; }
         public string Key { get; set; }
         public string Value { get; set; }
     }
