@@ -60,7 +60,8 @@ namespace Distributor
             services.AddSwaggerGen(swagger =>
             {
                 swagger.AddSecurityDefinition("Bearer", new ApiKeyScheme() { In = "Header", Description = "Please insert JWT with Bearer into field", Name = "Authorization", Type = "apiKey" });
-
+                swagger.IncludeXmlComments(Path.Combine(PlatformServices.Default.Application.ApplicationBasePath,
+                    "Distributor.xml"));
                 swagger.SwaggerDoc("v1",
                     new Info
                     {
