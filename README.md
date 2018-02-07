@@ -25,3 +25,7 @@
 |/api/distributor/{brand}|DELETE| Delete a car (Only Ford)|
 |/api/auth|POST| Create new token|
 
+##Swagger
+- It runs on localhost:5000/swagger
+- before use methods from Distributor Controller is necessary to create the token. Use auth controller to create a new one.
+- click authorization button and paste it.
