@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using Autofac;
@@ -10,11 +9,11 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc.ViewFeatures.Internal;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.IdentityModel.Tokens;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Distributor
 {
@@ -57,6 +56,21 @@ namespace Distributor
             services.AddMvc();
             services.AddAuthentication(AuthConfig)
                 .AddJwtBearer("JwtBearer", JwtBearerOptions);
+            
+            services.AddSwaggerGen(swagger =>
+            {
+                swagger.AddSecurityDefinition("Bearer", new ApiKeyScheme() { In = "Header", Description = "Please insert JWT with Bearer into field", Name = "Authorization", Type = "apiKey" });
+
+                swagger.SwaggerDoc("v1",
+                    new Info
+                    {
+                        Title = "Distributor API",
+                        Version = "v1",
+                        Description =
+                            "This API will return cars made by Ford ,Toyota. Create,update, delete is available only for Ford . Mongo database is required"
+                    });
+                swagger.OrderActionsBy(sort => sort.GroupName);
+            });
         }
 
         private void AuthConfig(AuthenticationOptions options)
@@ -93,6 +107,8 @@ namespace Distributor
 
             app.UseAuthentication();
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "Distributor API V1"); });
         }
     }
 }

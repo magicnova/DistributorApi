@@ -45,7 +45,7 @@ namespace Distributor.Infrastructure.Data.Configuration
            
             try
             {
-                var filterTokenKey = Builders<CredentialsSchema>.Filter.Eq("Key", "api.fordapi.credentials.token1");
+                var filterTokenKey = Builders<CredentialsSchema>.Filter.Eq("Key", "api.fordapi.credentials.token");
                 
                 var token = _distributorContext.GetContext().GetCollection<CredentialsSchema>("credentials")
                     .Find(filterTokenKey).FirstOrDefault();
