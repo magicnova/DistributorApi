@@ -20,7 +20,8 @@
 |/api/distributor/engine/{brand}/{engine}|GET|Get cars by engine and brand|
 |/api/distributor/year/{brand}/{year}|GET|Get cars by year and brand|
 |/api/distributor/{brand}/{id}|GET|Get cars by id and brand|
-/api/distributor/{brand}|POST| Create a new car (Only Ford)
-/api/distributor/{brand}|UPDATE| Update an existing car (Only Ford)
-/api/distributor/{brand}|DELETE| Delete a car (Only Ford)
+|/api/distributor/{brand}|POST| Create a new car (Only Ford)|
+|/api/distributor/{brand}|UPDATE| Update an existing car (Only Ford)|
+|/api/distributor/{brand}|DELETE| Delete a car (Only Ford)|
+|/api/auth|POST| Create new token|
 
