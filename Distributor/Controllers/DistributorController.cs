@@ -1,14 +1,15 @@
-﻿using System.Net;
-using Distributor.Domain;
+﻿using Distributor.Domain;
 using Distributor.Domain.Common.ExtensionMethods;
 using Distributor.Domain.Interfaces;
 using Distributor.Domain.Requests;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Distributor.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     public class DistributorController : Controller
     {
         private readonly IDistributorService _distributorService;
